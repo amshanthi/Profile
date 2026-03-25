@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h2 {
+  padding: 20px;
+}
+
+body {
+  background: #0f172a;
+  color: #fff;
+}
+
+/* NAVBAR */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #020617;
+}
+
+header a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #38bdf8;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h2 {
+  font-size: 36px;
+}
+
+.hero p {
+  margin-top: 10px;
+  color: #94a3b8;
+}
+
+/* PROJECTS */
+#projects {
+  padding: 40px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #22c55e;
+}
+
+/* ABOUT + CONTACT */
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skills span {
+  background: #1e293b;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 14px;
+}
